@@ -3,6 +3,8 @@ import React, { FunctionComponent, useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { fadeInUp, stagger } from "@/animations";
 
 const ProjectCard: FunctionComponent<{ project: Project }> = ({
   project: {
@@ -33,14 +35,16 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({
           className="absolute grid md:grid-cols-2 top-0 left-0 z-10 p-2 h-auto w-full gap-x-12 
             text-black bg-gray-100 dark:text-white dark:bg-dark-100"
         >
-          <div>
-            <Image
-              src={image_path}
-              alt={name}
-              width="300"
-              height="150"
-              layout="responsive"
-            />
+          <motion.div variants={stagger} initial="initial" animate="animate">
+            <motion.div variants={fadeInUp}>
+              <Image
+                src={image_path}
+                alt={name}
+                width="300"
+                height="150"
+                layout="responsive"
+              />
+            </motion.div>
             <div className="flex justify-center my-4 space-x-3">
               <a
                 href={github_url}
@@ -59,7 +63,7 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({
                 <span>Project</span>
               </a>
             </div>
-          </div>
+          </motion.div>
 
           <div>
             <h2 className="mb-3 text-xl font-medium md:text-2xl">{name}</h2>
