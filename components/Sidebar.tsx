@@ -14,14 +14,10 @@ const Sidebar = () => {
 
   return (
     <div>
-      <Image
-        src="/images/profile.jpg"
+      <img
+        src="https://drive.google.com/uc?export=view&id=12oSXhunjj2AYSL2ZHmS43fzRkLEv-5KA"
         alt="avatar"
         className="mx-auto border rounded-full"
-        height="128"
-        width="128"
-        layout="intrinsic"
-        quality="100"
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
@@ -61,6 +57,7 @@ const Sidebar = () => {
           <span>Chicago, Illinois</span>
         </div>
         <p className="my-2">lye10@hawk.iit.edu</p>
+        <p className="my-2">+1 123-456-7890</p>
       </div>
 
       {/* Email Button */}
