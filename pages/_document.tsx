@@ -1,10 +1,12 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Main, NextScript } from 'next/document'
+import Head from 'next/head'
+
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Lucie Ye's portfolio</title>
+        <title>Lucie Ye&apos;s portfolio</title>
         <link rel="icon" href="/images/icon.png" />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link href='https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'
