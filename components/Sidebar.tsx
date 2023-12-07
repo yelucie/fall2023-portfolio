@@ -25,7 +25,7 @@ const Sidebar = () => {
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green">Lucie</span> Ye
+        <span className="text-purple-500">Lucie</span> Ye
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
         Web Developer
@@ -42,7 +42,7 @@ const Sidebar = () => {
       </a>
 
       {/* Socials */}
-      <div className="flex justify-evenly w-9/12 mx-auto my-5 text-green md:w-full">
+      <div className="flex justify-evenly w-9/12 mx-auto my-5 text-purple-500 md:w-full">
         <a href="https://www.linkedin.com/in/yelucie">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
@@ -65,7 +65,7 @@ const Sidebar = () => {
 
       {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 dark:text-dark-200 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
         onClick={() => window.open("mailto:lye10@hawk.iit.edu")}
       >
         Email me
@@ -73,10 +73,10 @@ const Sidebar = () => {
 
       {/* Dark mode Button */}
       <button
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 my-4 dark:text-dark-200 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
         onClick={changeTheme}
       >
-        Dark mode
+        Change theme
       </button>
     </div>
   );

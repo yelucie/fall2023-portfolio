@@ -8,8 +8,7 @@ export interface Service {
 
 export interface Skill {
     name: string,
-    level: string,
-    Icon: IconType,
+    level: string
 }
 
 export interface Project {
@@ -23,4 +22,4 @@ export interface Project {
     key_techs: string[]
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+export type Category = "java" | "javascript" | "css" | "react" | "flask";

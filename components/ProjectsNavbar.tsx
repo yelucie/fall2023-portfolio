@@ -7,10 +7,11 @@ const ProjectsNavbar: FunctionComponent<{
   return (
     <div className="flex space-x-3 px-3 py-2 list-none overflow-x-auto">
       <NavItem value="all" handlerFilterCategory={handlerFilterCategory} />
+      <NavItem value="java" handlerFilterCategory={handlerFilterCategory} />
+      <NavItem value="javascript" handlerFilterCategory={handlerFilterCategory} />
+      <NavItem value="css" handlerFilterCategory={handlerFilterCategory} />
       <NavItem value="react" handlerFilterCategory={handlerFilterCategory} />
-      <NavItem value="mongo" handlerFilterCategory={handlerFilterCategory} />
-      <NavItem value="django" handlerFilterCategory={handlerFilterCategory} />
-      <NavItem value="node" handlerFilterCategory={handlerFilterCategory} />
+      <NavItem value="flask" handlerFilterCategory={handlerFilterCategory} />
     </div>
   );
 };

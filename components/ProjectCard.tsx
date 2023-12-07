@@ -1,6 +1,6 @@
 import { Project } from "@/type";
 import React, { FunctionComponent, useState } from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -65,7 +65,7 @@ const ProjectCard: FunctionComponent<{
                 className="flex items-center px-4 py-2 space-x-3 txtlg
               bg-gray-200 dark:bg-dark-200"
               >
-                <AiFillGithub />
+                <AiFillProject />
                 <span>Project</span>
               </a>
             </div>

@@ -7,7 +7,7 @@ const NavItem: FunctionComponent<{
 }> = ({ value, handlerFilterCategory }) => {
   return (
     <li
-      className="cursor-pointer hover:text-green capitalize"
+      className="cursor-pointer hover:text-purple-500 capitalize"
       onClick={() => handlerFilterCategory(value)}>
       {value}
     </li>

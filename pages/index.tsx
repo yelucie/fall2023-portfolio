@@ -15,7 +15,12 @@ const index: NextPage = () => {
       exit="exit"
     >
       <h6 className="my-3 text-base font-medium">
-        BLABLABLABLBALBLABLBALBLABL bLblbblabdlblbdlblbal
+      As a <b>Master of Information Technology and Management</b>, 
+      I also bring a wealth of expertise in <b>Java development</b>, particularly within <b>agile team environments</b>. 
+      My specialization lies in <b>Web Design and Application Development</b>, 
+      and I am enthusiastic about channeling my skills to contribute and propel technological excellence. 
+      I am seeking a dynamic role as a <b>Software Development Engineer</b>, where the fusion of <b>innovation and collaboration</b> 
+      fosters the creation of cutting-edge solutions.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
@@ -25,7 +30,7 @@ const index: NextPage = () => {
           What I offer
         </h4>
         <motion.div
-          className="grid gap-6 my-3 md:grid-cols-2"
+          className="grid gap-6 my-3 xl:grid-cols-2"
           variants={stagger}
           initial="initial"
           animate="animate"
