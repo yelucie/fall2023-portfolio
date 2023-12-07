@@ -6,8 +6,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInUp, stagger } from "@/animations";
 
-const ProjectCard: FunctionComponent<{ project: Project }> = ({
+const ProjectCard: FunctionComponent<{
+  project: Project;
+  showDetail: number | null;
+  setShowDetail: (id: number | null) => void;
+}> = ({
   project: {
+    id,
     name,
     image_path,
     category,
@@ -16,27 +21,28 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({
     github_url,
     description,
   },
+  showDetail,
+  setShowDetail,
 }) => {
-  const [showDetail, setShowDetail] = useState(false);
   return (
     <div>
       <Image
         src={image_path}
         alt={name}
         className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
+        onClick={() => setShowDetail(id)}
         width="300"
         height="150"
         layout="responsive"
       />
       <p className="my-2 text-center">{name}</p>
-      {showDetail && (
+      {showDetail === id && (
         <div
-          className="absolute grid md:grid-cols-2 top-0 left-0 z-10 p-2 h-auto w-full gap-x-12 
-            text-black bg-gray-100 dark:text-white dark:bg-dark-100"
+          className="absolute grid md:grid-cols-2 top-0 left-0 z-10 p-2 md:p-10 h-auto w-full gap-x-12 
+            text-black bg-gray-100 dark:text-white dark:bg-dark-100 rounded-lg"
         >
           <motion.div variants={stagger} initial="initial" animate="animate">
-            <motion.div variants={fadeInUp}>
+            <motion.div variants={fadeInUp} className="border-4 border-gray-100">
               <Image
                 src={image_path}
                 alt={name}
@@ -65,10 +71,20 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({
             </div>
           </motion.div>
 
-          <div>
-            <h2 className="mb-3 text-xl font-medium md:text-2xl">{name}</h2>
-            <h3 className="mb-3 font-medium">{description}</h3>
-            <div className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+          <motion.div variants={stagger} initial="initial" animate="animate">
+            <motion.h2
+              variants={fadeInUp}
+              className="mb-3 text-xl font-medium md:text-2xl"
+            >
+              {name}
+            </motion.h2>
+            <motion.h3 variants={fadeInUp} className="mb-3 font-medium">
+              {description}
+            </motion.h3>
+            <motion.div
+              variants={fadeInUp}
+              className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider"
+            >
               {key_techs.map((tech) => (
                 <span
                   key={tech}
@@ -77,11 +93,11 @@ const ProjectCard: FunctionComponent<{ project: Project }> = ({
                   {tech}
                 </span>
               ))}
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           <button
-            onClick={() => setShowDetail(false)}
+            onClick={() => setShowDetail(null)}
             className="absolute top-3 right-3 rounded-full focus:outline-none bg-gray-200 dark:bg-dark-200"
           >
             <MdClose size={30} />
