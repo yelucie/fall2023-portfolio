@@ -132,7 +132,7 @@ export const projects: Project[] = [
   {
     id: 5,
     name: "Portfolio V1.0",
-    image_path: "https://drive.google.com/uc?export=view&id=1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
+    image_path: "https://drive.google.com/uc?export=view&id=14yswoQne6qoBqQEacLYPwdNIdsodexra",
     deployed_url: "https://yelucie.github.io/ITMD541/",
     github_url: "https://yelucie.github.io/ITMD541/",
     category: ["css"],
@@ -154,7 +154,7 @@ export const projects: Project[] = [
   {
     id: 7,
     name: "Web Application Aberhonddu",
-    image_path: "https://drive.google.com/uc?export=view&id=1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
+    image_path: "https://drive.google.com/uc?export=view&id=1zlvNcsAFP9qjGnhCre9De-88zLxO0kqp",
     deployed_url: "google.com",
     github_url: "google.com",
     category: ["java"],
@@ -165,7 +165,7 @@ export const projects: Project[] = [
   {
     id: 8,
     name: "Be An Artist",
-    image_path: "https://drive.google.com/uc?export=view&id=1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
+    image_path: "https://drive.google.com/uc?export=view&id=117lziOftAWczueVIcbS5Iz131Xdd-EM9",
     deployed_url: "google.com",
     github_url: "google.com",
     category: ["java"],

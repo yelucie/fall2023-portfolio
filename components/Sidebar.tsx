@@ -18,6 +18,8 @@ const Sidebar = () => {
         src="https://drive.google.com/uc?export=view&id=12oSXhunjj2AYSL2ZHmS43fzRkLEv-5KA"
         alt="avatar"
         className="mx-auto border rounded-full"
+        height="128"
+        width="128"
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
