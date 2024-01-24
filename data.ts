@@ -90,7 +90,7 @@ export const projects: Project[] = [
     name: "PDF Summarizer",
     description:
     "My first Flask project, which is a PDF summarizer implemented in Python, leveraging the OpenAI API powered by ChatGPT. The code adheres to the PEP-8 guidelines, ensuring maintainability and consistency in coding practices.",
-    image_path: "https://drive.google.com/uc?export=view&id=1vPPgmILKpK15xQwrXkB3eih_PN9KWbQ2",
+    image_path: "https://lh3.google.com/u/0/d/1vPPgmILKpK15xQwrXkB3eih_PN9KWbQ2",
     deployed_url: "google.com",
     github_url: "google.com",
     category: ["flask"],
@@ -99,7 +99,7 @@ export const projects: Project[] = [
   {
     id: 2,
     name: "API Retriever",
-    image_path: "https://drive.google.com/uc?export=view&id=1tj1dbgvWCAd23vd45cjgORds1k9V5ZYV",
+    image_path: "https://lh3.google.com/u/0/d/1tj1dbgvWCAd23vd45cjgORds1k9V5ZYV",
     deployed_url: "https://orange-flower-02dd2d20f.4.azurestaticapps.net/",
     github_url: "https://github.com/yelucie/ITMD543-NextJS-Tailwind-JSON",
     category: ["react", "css"],
@@ -110,7 +110,7 @@ export const projects: Project[] = [
   {
     id: 3,
     name: "Sunset-Sunrise Time",
-    image_path: "https://drive.google.com/uc?export=view&id=15Mtmq-cD906gQcOV2AI4csapaIOPBUrY",
+    image_path: "https://lh3.google.com/u/0/d/15Mtmq-cD906gQcOV2AI4csapaIOPBUrY",
     deployed_url: "https://yelucie.github.io/ITMD541-LAB4/",
     github_url: "https://github.com/yelucie/ITMD541-LAB4",
     category: ["javascript", "css"],
@@ -121,7 +121,7 @@ export const projects: Project[] = [
   {
     id: 4,
     name: "Tip Calculator",
-    image_path: "https://drive.google.com/uc?export=view&id=1dpNozkZ5gsZLdOMROgWKl6i0bbJ3SkN6",
+    image_path: "https://lh3.google.com/u/0/d/1dpNozkZ5gsZLdOMROgWKl6i0bbJ3SkN6",
     deployed_url: "https://yelucie.github.io/ITMD541-LAB3/",
     github_url: "https://github.com/yelucie/ITMD541-LAB3",
     category: ["javascript", "css"],
@@ -132,7 +132,7 @@ export const projects: Project[] = [
   {
     id: 5,
     name: "Portfolio V1.0",
-    image_path: "https://drive.google.com/uc?export=view&id=14yswoQne6qoBqQEacLYPwdNIdsodexra",
+    image_path: "https://lh3.google.com/u/0/d/14yswoQne6qoBqQEacLYPwdNIdsodexra",
     deployed_url: "https://yelucie.github.io/ITMD541/",
     github_url: "https://yelucie.github.io/ITMD541/",
     category: ["css"],
@@ -143,7 +143,7 @@ export const projects: Project[] = [
   {
     id: 6,
     name: "Porfolio V2.0",
-    image_path: "https://drive.google.com/uc?export=view&id=1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
+    image_path: "https://lh3.google.com/u/0/d/1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
     deployed_url: "https://green-sea-0ed76610f.4.azurestaticapps.net/",
     github_url: "https://github.com/yelucie/fall2023-portfolio",
     category: ["react"],
@@ -154,7 +154,7 @@ export const projects: Project[] = [
   {
     id: 7,
     name: "Web Application Aberhonddu",
-    image_path: "https://drive.google.com/uc?export=view&id=1zlvNcsAFP9qjGnhCre9De-88zLxO0kqp",
+    image_path: "https://lh3.google.com/u/0/d/1zlvNcsAFP9qjGnhCre9De-88zLxO0kqp",
     deployed_url: "google.com",
     github_url: "google.com",
     category: ["java"],
@@ -165,7 +165,7 @@ export const projects: Project[] = [
   {
     id: 8,
     name: "Be An Artist",
-    image_path: "https://drive.google.com/uc?export=view&id=117lziOftAWczueVIcbS5Iz131Xdd-EM9",
+    image_path: "https://lh3.google.com/u/0/d/117lziOftAWczueVIcbS5Iz131Xdd-EM9",
     deployed_url: "google.com",
     github_url: "google.com",
     category: ["java"],

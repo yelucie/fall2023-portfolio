@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div>
       <img
-        src="https://drive.google.com/uc?export=view&id=12oSXhunjj2AYSL2ZHmS43fzRkLEv-5KA"
+        src="https://lh3.google.com/u/0/d/12oSXhunjj2AYSL2ZHmS43fzRkLEv-5KA"
         alt="avatar"
         className="mx-auto border rounded-full"
         height="128"
