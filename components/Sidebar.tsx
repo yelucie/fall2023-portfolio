@@ -31,7 +31,7 @@ const Sidebar = () => {
 
       {/* Resume */}
       <a
-        href="/assets/yelucie_resume.pdf"
+        href="/assets/LucieYe_Resume.pdf"
         download="Lucie Ye Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200"
       >
