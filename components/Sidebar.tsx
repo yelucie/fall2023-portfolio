@@ -41,7 +41,7 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-evenly w-9/12 mx-auto my-5 text-purple-500 md:w-full">
-        <a href="https://www.linkedin.com/in/yelucie">
+        <a href="https://www.linkedin.com/in/LucieYe">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://www.github.com/yelucie">
@@ -59,7 +59,7 @@ const Sidebar = () => {
           <span>Chicago, Illinois</span>
         </div>
         <p className="my-2">lye10@hawk.iit.edu</p>
-        <p className="my-2">+1 123-456-7890</p>
+        <p className="my-2">+1 312-483-9626</p>
       </div>
 
       {/* Email Button */}
