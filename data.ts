@@ -8,25 +8,25 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can construct user-friendly, scalable, and visually appealing web applications utilizing <b>HTML</b>, <b>CSS</b>, and <b>React.js</b>.",
+      "I can construct user-friendly, scalable, and visually appealing web applications utilizing <b>HTML</b>, <b>PUG HTML</b>, <b>CSS</b>, <b>Next.js</b>, and <b>React.js</b>.",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "Backend Development",
     about:
-      "I can create relational database using UML schemes, and build server and api using <b>Express </b> & other popular frameworks.",
+      "I can create <b>relational</b> and <b>non-relational databases</b> using <b>UML or JSON schemas</b>. I can also <b>normalize existing databases</b> and write complex <b>SQL queries</b>.",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "API Development",
     about:
-      "I can build robust RESTful API using <b>Express</b>. My experience extends to designing secure API endpoints.",
+      "I can build RESTful API using <b>Express</b>, <b>Spring Boot</b> & other frameworks. My experience extends to designing API endpoints.",
   },
   {
     Icon: AiOutlineApi,
     title: "Entrepreneurship",
     about:
-      "In entrepreneurship, I like on fostering innovation and employing critical thinking in order to drive business success.",
+      "In entrepreneurship, I like on fostering <b>innovation</b> and employing <b>critical thinking</b> in order to drive business success.",
   },
 ];
 
@@ -90,16 +90,16 @@ export const projects: Project[] = [
     name: "PDF Summarizer",
     description:
     "My first Flask project, which is a PDF summarizer implemented in Python, leveraging the OpenAI API powered by ChatGPT. The code adheres to the PEP-8 guidelines, ensuring maintainability and consistency in coding practices.",
-    image_path: "https://lh3.google.com/u/0/d/1vPPgmILKpK15xQwrXkB3eih_PN9KWbQ2",
-    deployed_url: "google.com",
-    github_url: "google.com",
+    image_path: "/images/pdf-summarizer.png",
+    deployed_url: "",
+    github_url: "",
     category: ["flask"],
     key_techs: ["Flask", "Python", "Open-AI"],
   },
   {
     id: 2,
     name: "API Retriever",
-    image_path: "https://lh3.google.com/u/0/d/1tj1dbgvWCAd23vd45cjgORds1k9V5ZYV",
+    image_path: "/images/api-retriever.png",
     deployed_url: "https://orange-flower-02dd2d20f.4.azurestaticapps.net/",
     github_url: "https://github.com/yelucie/ITMD543-NextJS-Tailwind-JSON",
     category: ["react", "css"],
@@ -110,7 +110,7 @@ export const projects: Project[] = [
   {
     id: 3,
     name: "Sunset-Sunrise Time",
-    image_path: "https://lh3.google.com/u/0/d/15Mtmq-cD906gQcOV2AI4csapaIOPBUrY",
+    image_path: "/images/sunset-sunrise.png",
     deployed_url: "https://yelucie.github.io/ITMD541-LAB4/",
     github_url: "https://github.com/yelucie/ITMD541-LAB4",
     category: ["javascript", "css"],
@@ -121,7 +121,7 @@ export const projects: Project[] = [
   {
     id: 4,
     name: "Tip Calculator",
-    image_path: "https://lh3.google.com/u/0/d/1dpNozkZ5gsZLdOMROgWKl6i0bbJ3SkN6",
+    image_path: "/images/tip-calculator.png",
     deployed_url: "https://yelucie.github.io/ITMD541-LAB3/",
     github_url: "https://github.com/yelucie/ITMD541-LAB3",
     category: ["javascript", "css"],
@@ -132,7 +132,7 @@ export const projects: Project[] = [
   {
     id: 5,
     name: "Portfolio V1.0",
-    image_path: "https://lh3.google.com/u/0/d/14yswoQne6qoBqQEacLYPwdNIdsodexra",
+    image_path: "/images/portfolio-1.png",
     deployed_url: "https://yelucie.github.io/ITMD541/",
     github_url: "https://yelucie.github.io/ITMD541/",
     category: ["css"],
@@ -143,8 +143,8 @@ export const projects: Project[] = [
   {
     id: 6,
     name: "Porfolio V2.0",
-    image_path: "https://lh3.google.com/u/0/d/1nYy6grZcLXXL8wLM4e4gFkXqMLIUxeTr",
-    deployed_url: "https://green-sea-0ed76610f.4.azurestaticapps.net/",
+    image_path: "/images/portfolio-2.png",
+    deployed_url: "https://lucie-ye.vercel.app/",
     github_url: "https://github.com/yelucie/fall2023-portfolio",
     category: ["react"],
     description:
@@ -154,9 +154,9 @@ export const projects: Project[] = [
   {
     id: 7,
     name: "Web Application Aberhonddu",
-    image_path: "https://lh3.google.com/u/0/d/1zlvNcsAFP9qjGnhCre9De-88zLxO0kqp",
-    deployed_url: "google.com",
-    github_url: "google.com",
+    image_path: "/images/aberhonddu.png",
+    deployed_url: "",
+    github_url: "",
     category: ["java"],
     description:
       "A collaborative Java web application developed using technologies such as Java, Maven, MySQL Database, Selenium, Scrum, and Spring Boot. The project was executed in a team environment, completing the development cycle within three sprints.",
@@ -165,9 +165,9 @@ export const projects: Project[] = [
   {
     id: 8,
     name: "Be An Artist",
-    image_path: "https://lh3.google.com/u/0/d/117lziOftAWczueVIcbS5Iz131Xdd-EM9",
-    deployed_url: "google.com",
-    github_url: "google.com",
+    image_path: "/images/baa.png",
+    deployed_url: "",
+    github_url: "",
     category: ["java"],
     description:
       "A Java application inspired by Microsoft Paint, featuring robust functionalities implemented in Java with support from JUnit for testing and Graphic 2D Swing for a rich graphical user interface.",

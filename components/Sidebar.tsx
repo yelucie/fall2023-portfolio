@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { GiTie } from "react-icons/gi";
+import { FaDownload } from "react-icons/fa";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
@@ -14,8 +14,8 @@ const Sidebar = () => {
 
   return (
     <div>
-      <img
-        src="https://lh3.google.com/u/0/d/12oSXhunjj2AYSL2ZHmS43fzRkLEv-5KA"
+      <Image
+        src="/images/profile.jpg"
         alt="avatar"
         className="mx-auto border rounded-full"
         height="128"
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <span className="text-purple-500">Lucie</span> Ye
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        Web Developer
+        Full-Stack Developer
       </p>
 
       {/* Resume */}
@@ -35,12 +35,12 @@ const Sidebar = () => {
         download="Lucie Ye Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200"
       >
-        <GiTie className="w-6 h-6" />
-        <span>Download Resume</span>
+        <FaDownload className="w-5 h-5 pr-2" />
+        Download Resume
       </a>
 
       {/* Socials */}
-      <div className="flex justify-evenly w-9/12 mx-auto my-5 text-purple-500 md:w-full">
+      <div className="flex w-9/12 mx-auto my-5 text-purple-500 justify-evenly md:w-full">
         <a href="https://www.linkedin.com/in/LucieYe">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
@@ -64,7 +64,7 @@ const Sidebar = () => {
 
       {/* Email Button */}
       <button
-        className="w-8/12 px-5 py-2 dark:text-dark-200 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer dark:text-dark-200 bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
         onClick={() => window.open("mailto:lye10@hawk.iit.edu")}
       >
         Email me
@@ -72,10 +72,10 @@ const Sidebar = () => {
 
       {/* Dark mode Button */}
       <button
-        className="w-8/12 px-5 py-2 my-4 dark:text-dark-200 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer dark:text-dark-200 bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
         onClick={changeTheme}
       >
-        Change theme
+        {theme === "light" ? "Dark Mode" : "Light Mode"}
       </button>
     </div>
   );
