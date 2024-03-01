@@ -20,9 +20,9 @@ const index: NextPage = () => {
         exit="exit"
       >
         <h6 className="my-3 text-base font-medium">
-        As a <b>versatile Full-Stack Developer</b> with a double master's degree in <b>Software Engineering</b> and <b>Web Development</b> from ESEO Graduate School (France) and Illinois Tech (IL, USA), 
+        As a <b>versatile Full-Stack Developer</b> with a double master&apos;s degree in <b>Software Engineering</b> and <b>Web Development</b> from ESEO Graduate School (France) and Illinois Tech (IL, USA), 
         I can bring a wealth of expertise to the table. My experience includes working within <b>agile team</b> environments  
-        where I've led successful projects, such as delivering <b>Spring Boot web applications</b> ahead of schedule and implementing <b>Next.JS</b> websites within tight deadlines. 
+        where I&apos;ve led successful projects, such as delivering <b>Spring Boot web applications</b> ahead of schedule and implementing <b>Next.JS</b> websites within tight deadlines. 
         I am seeking a dynamic role where the fusion of <b>innovation and collaboration</b> fosters the creation of cutting-edge solutions.
         </h6>
         <div

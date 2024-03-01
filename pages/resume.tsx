@@ -59,11 +59,11 @@ const resume = () => {
                 adesso insurance solutions GmbH, Cologne, Germany
               </p>
               <p className="my-3">
-                I've reduced the cost per product release by implementing automated <strong>Java</strong> integration tests, 
+                I&apos;ve reduced the cost per product release by implementing automated <strong>Java</strong> integration tests, 
                 collaborating closely with a team of software engineers. 
-                Additionally, I've conducted testing across six modules deployed on <strong>three Docker images</strong>, 
+                Additionally, I&apos;ve conducted testing across six modules deployed on <strong>three Docker images</strong>, 
                 utilizing <strong>JBoss</strong> and <strong>SQL databases</strong>, all accomplished within a tight deadline of three weeks. 
-                Moreover, in response to a customer request, I efficiently <strong>updated a Docker image's</strong> JBoss application server and PostgreSQL database, 
+                Moreover, in response to a customer request, I efficiently <strong>updated a Docker image&apos;s</strong> JBoss application server and PostgreSQL database, 
                 completing the task within a mere eight-hour timeframe. 
                 These achievements highlight my ability to deliver efficient and effective solutions while maintaining a high standard of quality and timeliness.
               </p>
