@@ -32,51 +32,47 @@ export const services: Service[] = [
 
 export const languages: Skill[] = [
   {
-    name: "・   Java",
+    name: "・   JavaScript",
     level: "85",
   },
   {
-    name: "・   SQL",
+    name: "・   Java",
     level: "82",
   },
   {
-    name: "・   HTML",
+    name: "・   TypeScript",
     level: "65",
   },
   {
-    name: "・   JavaScript",
+    name: "・   CSS",
     level: "60",
   },
   {
-    name: "・   CSS",
-    level: "58",
+    name: "・   HTML",
+    level: "30",
   },
   {
     name: "・ C",
-    level: "42",
+    level: "20",
   },
 ];
 
 export const tools: Skill[] = [
   {
-    name: "・   Maven",
-    level: "75",
+    name: "・   Next.js",
+    level: "80",
   },
   {
-    name: "・   Spring Boot",
+    name: "・   Express.js",
     level: "68",
   },
   {
-    name: "・   Selenium",
-    level: "65",
-  },
-  {
-    name: "・   NodeJS",
-    level: "50",
+    name: "・   Spring Boot",
+    level: "60",
   },
   {
     name: "・   React",
-    level: "45",
+    level: "50",
   },
   {
     name: "・   Angular",
