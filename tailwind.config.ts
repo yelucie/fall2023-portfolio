@@ -8,7 +8,7 @@ const config: Config = {
    ],
    theme: {
       fontFamily: {
-         sans: ['ui-sans-serif', 'system-ui'],
+         sans: ['Moderustic'],
          kaushan: ["Kaushan Script"],
       },
       extend: {

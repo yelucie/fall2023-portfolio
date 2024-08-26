@@ -5,11 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="icon" href="/images/icon.png" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Moderustic:wght@300..800&display=swap" rel="stylesheet" />
         <meta
           name="format-detection"
           content="telephone=no, date=no, email=no, address=no"

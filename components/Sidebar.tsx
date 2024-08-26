@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { FaDownload } from "react-icons/fa";
@@ -7,6 +7,11 @@ import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
@@ -17,7 +22,7 @@ const Sidebar = () => {
       <Image
         src="/images/profile.jpg"
         alt="avatar"
-        className="mx-auto border rounded-full"
+        className="mx-auto rounded-full ring-2 p-1 my-4 ring-gray-400 dark:ring-gray-200"
         height="128"
         width="128"
       />
@@ -59,7 +64,7 @@ const Sidebar = () => {
           <span>Chicago, Illinois</span>
         </div>
         <p className="my-2">lye10@hawk.iit.edu</p>
-        <p className="my-2">+1 312-483-9626</p>
+        <p>312-483-9626</p>
       </div>
 
       {/* Email Button */}
@@ -71,12 +76,14 @@ const Sidebar = () => {
       </button>
 
       {/* Dark mode Button */}
-      <button
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer dark:text-dark-200 bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
-        onClick={changeTheme}
-      >
-        {theme === "light" ? "Dark Mode" : "Light Mode"}
-      </button>
+      {mounted && (
+        <button
+          className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer dark:text-dark-200 bg-gradient-to-r from-purple-600 to-teal-400 hover:scale-105 focus:outline-none"
+          onClick={changeTheme}
+        >
+          {theme === "light" ? "Dark Mode" : "Light Mode"}
+        </button>
+      )}
     </div>
   );
 };

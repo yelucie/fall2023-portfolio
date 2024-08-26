@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.0.2",
+    "fall2023-portfolio": "file:",
     "framer-motion": "^10.16.14",
-    "next": "14.0.3",
+    "next": "^14.2.6",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
