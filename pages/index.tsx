@@ -19,11 +19,17 @@ const index: NextPage = () => {
         animate="animate"
         exit="exit"
       >
-        <h6 className="my-3 text-base font-medium">
-        As a <b>versatile Full-Stack Developer</b> with a double master&apos;s degree in <b>Software Engineering</b> and <b>Web Development</b> from ESEO Graduate School (France) and Illinois Tech (IL, USA), 
-        I can bring a wealth of expertise to the table. My experience includes working within <b>agile team</b> environments  
-        where I&apos;ve led successful projects, such as delivering <b>Spring Boot web applications</b> ahead of schedule and implementing <b>Next.JS</b> websites within tight deadlines. 
-        I am seeking a dynamic role where the fusion of <b>innovation and collaboration</b> fosters the creation of cutting-edge solutions.
+        <h6 className="mb-3 text-base font-medium">
+          Hello World!
+          <br></br><br></br>
+          I&apos;m Lucie, a Full-Stack Developer with dual master&apos;s degrees in <strong>Software Engineering</strong> and <strong>IT Management</strong>.
+          I specialize in building high-quality web applications, from elegant React interfaces to robust Spring Boot systems.
+          My experience in agile teams has also enhanced my ability to work effectively with others to make projects that consistently deliver results ahead of schedule.
+          <br></br><br></br>
+          With experience from multiple technological environments in <strong>Angers (France)</strong>, <strong>Cologne (Germany)</strong>, and <strong>Chicago (IL)</strong>, I have gained a deep understanding of the tie between technology and innovation on a global scale.
+          This exposure has allowed me to appreciate the diverse perspectives and unique approaches that drive technological advancements across different cultures.
+          <br></br><br></br>
+          <i>Let’s connect and explore how we can collaborate to bring innovative ideas to life!</i>
         </h6>
         <div
           className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
