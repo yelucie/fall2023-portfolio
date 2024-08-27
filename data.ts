@@ -1,4 +1,4 @@
-import { FaPalette, FaCode, FaWrench, FaDatabase, FaCloud, FaSpellCheck } from "react-icons/fa";
+import { FaPalette, FaCode, FaTools, FaDatabase, FaCloud, FaVoteYea, FaStream, FaCoffee } from "react-icons/fa";
 import { Project, Service, Skill } from "./type";
 
 export const services: Service[] = [
@@ -15,7 +15,7 @@ export const services: Service[] = [
       "I create clean websites using <b>JavaScript</b>, <b>TypeScript</b>, <b>PHP</b>, <b>HTML5</b>, <b>pug.js</b>, <b>CSS3</b>, and <b>TailwindCSS</b>.",
   },
   {
-    Icon: FaWrench,
+    Icon: FaTools,
     title: "Backend Frameworks",
     about:
       "I make solid foundation that keeps application running smoothly using <b>Spring Boot</b>, <b>Flask</b>, and <b>Express.js</b>.",
@@ -33,10 +33,22 @@ export const services: Service[] = [
       "I develop APIs using <b>REST</b> and <b>GraphQL</b>, while checking with <b>Postman</b> to ensure everything works smoothly.",
   },
   {
-    Icon: FaSpellCheck,
+    Icon: FaVoteYea,
     title: "Testing",
     about:
-      "I focus on <b>unit tests</b>, <b>integration tests</b>, and <b>validation test cases</b> and I test with <b>Selenium</b>, <b>JUnit</b>, and <b>TestNG</b>.",
+      "I focus on <b>unit tests</b>, <b>integration tests</b>, and <b>validation test cases</b>. I test with <b>Selenium</b>, <b>JUnit</b>, and <b>TestNG</b>.",
+  },
+  {
+    Icon: FaStream,
+    title: "DevOps",
+    about:
+      "I streamline development using <b>Git</b>, <b>GitHub</b>, and <b>Bitbucket</b>. I build pipelines with <b>Jenkins</b> and <b>SonarQube</b>. ",
+  },
+  {
+    Icon: FaCoffee,
+    title: "Miscellaneous",
+    about:
+      "I like to use <b>VS Code</b>, <b>Eclipse IDE</b>, and <b>IntelliJ</b>, and have worked in agile development using <b>Scrum</b>.",
   },
 ];
 
