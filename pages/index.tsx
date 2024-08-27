@@ -39,7 +39,7 @@ const index: NextPage = () => {
             My skill set
           </h4>
           <motion.div
-            className="grid gap-6 my-3 xl:grid-cols-2"
+            className="grid gap-6 my-3 lg:grid-cols-2"
             variants={stagger}
             initial="initial"
             animate="animate"

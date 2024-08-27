@@ -12,37 +12,37 @@ export const services: Service[] = [
     Icon: FaCode,
     title: "Web Development",
     about:
-      "I create clean websites using <b>JavaScript</b>, <b>TypeScript</b>, <b>PHP</b>, <b>HTML5</b>, <b>pug.js</b>, <b>CSS3</b>, and <b>TailwindCSS</b>.",
+      "I create websites using <b>JavaScript</b>, <b>TypeScript</b>, <b>PHP</b>, <b>HTML5</b>, <b>pug.js</b>, <b>CSS3</b>, and <b>TailwindCSS</b>.",
   },
   {
     Icon: FaTools,
     title: "Backend Frameworks",
     about:
-      "I make solid foundation that keeps application running smoothly using <b>Spring Boot</b>, <b>Flask</b>, and <b>Express.js</b>.",
+      "I make solid foundation keeping application running smoothly using <b>Spring Boot</b>, <b>Flask</b>, and <b>Express.js</b>.",
   },
   {
     Icon: FaDatabase,
     title: "Database Management",
     about:
-      "I design databases using <b>SQL</b> and <b>NoSQL</b>. I also create data models with <b>UML</b>, <b>MERISE</b>, and <b>JSON schemas</b>.",
+      "I design databases using <b>SQL</b> and <b>NoSQL</b>, and create data models with <b>UML</b>, <b>MERISE</b>, and <b>JSON</b>.",
   },
   {
     Icon: FaCloud,
     title: "API Development",
     about:
-      "I develop APIs using <b>REST</b> and <b>GraphQL</b>, while checking with <b>Postman</b> to ensure everything works smoothly.",
+      "I develop APIs with <b>REST</b> and <b>GraphQL</b>, and check with <b>Postman</b> to ensure that everything works.",
   },
   {
     Icon: FaVoteYea,
     title: "Testing",
     about:
-      "I focus on <b>unit tests</b>, <b>integration tests</b>, and <b>validation test cases</b>. I test with <b>Selenium</b>, <b>JUnit</b>, and <b>TestNG</b>.",
+      "I focus on <b>unit</b> and <b>integration tests</b>, and <b>validation test cases</b>. I test with <b>Selenium</b>, <b>JUnit</b>, and <b>TestNG</b>.",
   },
   {
     Icon: FaStream,
     title: "DevOps",
     about:
-      "I streamline development using <b>Git</b>, <b>GitHub</b>, and <b>Bitbucket</b>. I build pipelines with <b>Jenkins</b> and <b>SonarQube</b>. ",
+      "I streamline work using <b>Git</b>, <b>GitHub</b>, and <b>Bitbucket</b>. I build pipelines with <b>Jenkins</b> and <b>SonarQube</b>. ",
   },
   {
     Icon: FaCoffee,
