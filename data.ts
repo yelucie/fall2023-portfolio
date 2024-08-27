@@ -1,32 +1,42 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { FaPalette, FaCode, FaWrench, FaDatabase, FaCloud, FaSpellCheck } from "react-icons/fa";
 import { Project, Service, Skill } from "./type";
 
 export const services: Service[] = [
   {
-    Icon: RiComputerLine,
-    title: "Frontend Development",
+    Icon: FaPalette,
+    title: "Frontend Frameworks",
     about:
-      "I can construct user-friendly, scalable, and visually appealing web applications utilizing <b>HTML</b>, <b>PUG HTML</b>, <b>CSS</b>, <b>Next.js</b>, and <b>React.js</b>.",
+      "I build web applications that look great using frameworks like <b>React.js</b>, <b>Next.js</b>, and <b>AngularJS</b>.",
   },
   {
-    Icon: FaServer,
-    title: "Backend Development",
+    Icon: FaCode,
+    title: "Web Development",
     about:
-      "I can create <b>relational</b> and <b>non-relational databases</b> using <b>UML or JSON schemas</b>. I can also <b>normalize existing databases</b> and write complex <b>SQL queries</b>.",
+      "I create clean websites using <b>JavaScript</b>, <b>TypeScript</b>, <b>PHP</b>, <b>HTML5</b>, <b>pug.js</b>, <b>CSS3</b>, and <b>TailwindCSS</b>.",
   },
   {
-    Icon: AiOutlineAntDesign,
+    Icon: FaWrench,
+    title: "Backend Frameworks",
+    about:
+      "I make solid foundation that keeps application running smoothly using <b>Spring Boot</b>, <b>Flask</b>, and <b>Express.js</b>.",
+  },
+  {
+    Icon: FaDatabase,
+    title: "Database Management",
+    about:
+      "I design databases using <b>SQL</b> and <b>NoSQL</b>. I also create data models with <b>UML</b>, <b>MERISE</b>, and <b>JSON schemas</b>.",
+  },
+  {
+    Icon: FaCloud,
     title: "API Development",
     about:
-      "I can build RESTful API using <b>Express</b>, <b>Spring Boot</b> & other frameworks. My experience extends to designing API endpoints.",
+      "I develop APIs using <b>REST</b> and <b>GraphQL</b>, while checking with <b>Postman</b> to ensure everything works smoothly.",
   },
   {
-    Icon: AiOutlineApi,
-    title: "Entrepreneurship",
+    Icon: FaSpellCheck,
+    title: "Testing",
     about:
-      "In entrepreneurship, I like on fostering <b>innovation</b> and employing <b>critical thinking</b> in order to drive business success.",
+      "I focus on <b>unit tests</b>, <b>integration tests</b>, and <b>validation test cases</b> and I test with <b>Selenium</b>, <b>JUnit</b>, and <b>TestNG</b>.",
   },
 ];
 

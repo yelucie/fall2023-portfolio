@@ -19,7 +19,7 @@ const index: NextPage = () => {
         animate="animate"
         exit="exit"
       >
-        <h6 className="mb-3 text-base font-medium">
+        <h6 className="mb-8 text-base font-medium">
           Hello World!
           <br></br><br></br>
           I&apos;m Lucie, a Full-Stack Developer with dual master&apos;s degrees in <strong>Software Engineering</strong> and <strong>IT Management</strong>.
@@ -32,11 +32,11 @@ const index: NextPage = () => {
           <i>Let’s connect and explore how we can collaborate to bring innovative ideas to life!</i>
         </h6>
         <div
-          className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+          className="flex-grow p-5 bg-gray-400 dark:bg-dark-100"
           style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
         >
-          <h4 className="my-3 text-xl font-semibold tracking-wide">
-            What I offer
+          <h4 className="mb-3 text-xl font-semibold tracking-wide">
+            My skill set
           </h4>
           <motion.div
             className="grid gap-6 my-3 xl:grid-cols-2"
