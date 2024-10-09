@@ -7,7 +7,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right bottom, rgba(162, 86, 233),rgba(94, 234, 213));
+  background-image: linear-gradient(to right bottom, rgb(163, 88, 233),rgb(94, 234, 213));
   border-radius: 8px;
 }
 

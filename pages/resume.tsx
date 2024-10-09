@@ -27,7 +27,7 @@ const resume = () => {
                 Master of Information Technology and Management
               </h5>
               <p>
-                May 2024 | Illinois Institute of Technology, Chicago, Illinois
+                May 2024 | Illinois Tech, Chicago, IL
               </p>
               <p className="my-3">
                 <strong>Specialization in Web Design and Application Development.</strong><br></br>
@@ -73,7 +73,7 @@ const resume = () => {
         {/* Language and tool */}
         <div className="grid gap-6 lg:grid-cols-2">
           <div>
-            <h5 className="my-3 text-2xl font-bold">Languages (by preference)</h5>
+            <h5 className="my-3 text-2xl font-bold">Languages</h5>
             <div className="my-2">
               {languages.map((language) => (
                 <Bar data={language} key={language.name} />
@@ -81,7 +81,7 @@ const resume = () => {
             </div>
           </div>
           <div>
-            <h5 className="my-3 text-2xl font-bold">Frameworks (by preference)</h5>
+            <h5 className="my-3 text-2xl font-bold">Frameworks</h5>
             <div className="my-2">
               {tools.map((tool) => (
                 <Bar data={tool} key={tool.name} />

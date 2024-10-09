@@ -1,5 +1,5 @@
 import { FaPalette, FaCode, FaTools, FaDatabase, FaCloud, FaVoteYea, FaStream, FaCoffee } from "react-icons/fa";
-import { Project, Service, Skill } from "./type";
+import { Project, Service, Skill, School } from "./type";
 
 export const services: Service[] = [
   {
@@ -190,5 +190,38 @@ export const projects: Project[] = [
     description:
       "A Java application inspired by Microsoft Paint, featuring robust functionalities implemented in Java with support from JUnit for testing and Graphic 2D Swing for a rich graphical user interface.",
     key_techs: ["Java", "Maven", "JUnit", "Graphic2D"],
+  },
+];
+
+export const schools: School[] = [
+  {
+    degree: "Master of Information Technology and Management",
+    major: "Web Design and Application Development",
+    school: "Illinois Institute of Technology",
+    graduation: "May 2024",
+    location: "Chicago, IL",
+    coursework:
+      "Specialization in Web Design and Application Development. Notable Coursework: Full-Stack Development, Front-end Development, Back-end Development, Web Systems Architecture, Human-Computer Interaction",
+    url: "https://www.iit.edu/",
+  },
+  {
+    degree: "Master of Computer Science",
+    major: "Software Engineering",
+    school: "École Supérieure d'Électronique de l'Ouest",
+    graduation: "June 2023",
+    location: "Angers, France",
+    coursework:
+      "Specialization in Software Engineering and Database management. Notable Coursework: Object-Oriented Software Development, Java Development, Software Testing, Relational Database, Spring Boot RESTful API, Agile methodologies, Creativity and Entrepreneurship",
+    url: "https://www.eseo.fr/",
+  },
+  {
+    degree: "High School Diploma in Science",
+    major: "Natural and Applied Sciences",
+    school: "Lycée Sacré-Cœur",
+    graduation: "June 2019",
+    location: "Angers, France",
+    coursework:
+      "Specialization in Computer Science and Software Development. Notable Coursework: Data Structures, Algorithms, Computer Architecture, Operating Systems, Software Engineering",
+    url: "https://gscls.com/",
   },
 ];

@@ -26,9 +26,11 @@ const ProjectCard: FunctionComponent<{
 }) => {
   return (
     <div>
-      <img
+      <Image
         src={image_path}
         alt={name}
+        width={300}
+        height={150}
         className="cursor-pointer"
         onClick={() => setShowDetail(id)}
       />
@@ -40,8 +42,10 @@ const ProjectCard: FunctionComponent<{
         >
           <motion.div variants={stagger} initial="initial" animate="animate">
             <motion.div variants={fadeInUp} className="border-4 border-gray-100">
-              <img
+              <Image
                 src={image_path}
+                width={300}
+                height={150}
                 alt={name}
               />
             </motion.div>
@@ -76,7 +80,7 @@ const ProjectCard: FunctionComponent<{
             >
               {name}
             </motion.h2>
-            <motion.h3 variants={fadeInUp} className="mb-3 font-medium">
+            <motion.h3 variants={fadeInUp} className="mb-3">
               {description}
             </motion.h3>
             <motion.div

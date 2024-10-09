@@ -23,3 +23,13 @@ export interface Project {
 }
 
 export type Category = "java" | "javascript" | "css" | "react" | "flask";
+
+export interface School {
+    degree: string;
+    major: string;
+    school: string;
+    graduation: string;
+    location: string;
+    coursework: string;
+    url: string;
+}

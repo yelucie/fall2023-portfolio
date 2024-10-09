@@ -24,9 +24,10 @@ const Navbar = () => {
 
   useEffect(() => {
     if (pathname === "/") setActiveItem("About");
+    //if (pathname === "/education") setActiveItem("Education");
     if (pathname === "/projects") setActiveItem("Projects");
     if (pathname === "/resume") setActiveItem("Resume");
-  });
+  }, [pathname]);
 
   return (
     <div className="flex justify-between px-5 py-3 my-3">
@@ -40,6 +41,12 @@ const Navbar = () => {
           name="About"
           route="/"
         />
+        {/*<NavItem
+          activeItem={activeItem}
+          setActiveItem={setActiveItem}
+          name="Education"
+          route="/education"
+        />*/}
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
