@@ -1,4 +1,4 @@
-import { Skill } from "@/type";
+import { Skill } from "@/components/lib/definitions";
 import React, { FunctionComponent } from "react";
 import { motion } from "framer-motion";
 

@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.0.2",
+    "country-flag-icons": "^1.5.13",
     "fall2023-portfolio": "file:",
     "framer-motion": "^10.16.14",
+    "html-react-parser": "^5.1.18",
     "next": "^14.2.6",
     "next-themes": "^0.2.1",
     "react": "^18",
