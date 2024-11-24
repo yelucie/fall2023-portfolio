@@ -42,7 +42,7 @@ export const about: About = {
     Je me passionne pour la création d'applications web, que ce soit pour des interfaces utilisateurs intuitives sous React ou des systèmes backend robustes avec Spring Boot.
     Je suis particulièrement soucieuse de la qualité et du respect des délais. Mon expérience au sein d'équipes agiles a pu renforcer ma capacité à collaborer efficacement avec les autres pour mener à bien des projets qui délivrent des résultats concrets et durables.
     <br /><br />
-    Grâce à des expériences enrichissantes dans différents environnements technologiques, de <strong>Angers (France)</strong>, à <strong>Cologne (Allemagne)</strong> en passant par <strong>Chicago (IL)</strong>, j'ai pu acquérir une vision globale sur l'innovation et la technologie.
+    Grâce à des expériences enrichissantes dans différents environnements technologiques, de <strong>Angers (France)</strong>, à <strong>Chicago (IL)</strong> en passant par <strong>Cologne (Allemagne)</strong>, j'ai pu acquérir une vision globale sur l'innovation et la technologie.
     Ces aventures m'ont permis d'observer les perspectives diverses et les approches uniques qui stimulent les avancées technologiques au travers différentes cultures.
     <br /><br />
     <i>Connectons-nous et transformons ensemble des idées en innovations concrètes!</i>
