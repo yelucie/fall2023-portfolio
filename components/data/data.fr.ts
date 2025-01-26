@@ -9,7 +9,7 @@ export const profile: User = {
   hobby: "Musicienne",
   linkedin: "https://www.linkedin.com/in/LucieYe",
   github: "https://www.github.com/yelucie",
-  location: "Paris, France",
+  location: "Suisse",
   email: "lucie.ye@reseau.eseo.fr",
   languages: "FR・EN・CN・DE",
   emailLabel: "Me contacter",

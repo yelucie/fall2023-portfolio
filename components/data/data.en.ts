@@ -9,7 +9,7 @@ export const profile: User = {
   hobby: "Musician",
   linkedin: "https://www.linkedin.com/in/LucieYe",
   github: "https://www.github.com/yelucie",
-  location: "Paris, France",
+  location: "Switzerland",
   email: "lye10@hawk.iit.edu",
   languages: "EN・FR・CN・DE",
   emailLabel: "Email me",
