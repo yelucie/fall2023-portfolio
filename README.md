@@ -1,6 +1,6 @@
 # PORTFOLIO VERSION 2
 
-Live Demo ➡️ https://lucie-ye.vercel.app/
+Live Demo ➡️ https://yelucie.vercel.app/
 
 ### Installation/Running Instructions
 To get the project running locally, you should have Node installed. Then, follow these steps:
