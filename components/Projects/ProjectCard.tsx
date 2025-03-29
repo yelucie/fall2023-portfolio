@@ -12,8 +12,8 @@ const ProjectCard: FunctionComponent<{
       <Image
         src={project.image_path}
         alt={project.name}
-        width={300}
-        height={150}
+        width={250}
+        height={125}
         className="cursor-pointer rounded-lg"
         onClick={() => setShowDetail(project.id)}
       />

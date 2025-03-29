@@ -33,7 +33,7 @@ const Navbar = () => {
     if (pathname === "/") setActiveItem(data[0].label);
     // if (pathname === "/experience") setActiveItem(data[1].label);
     // if (pathname === "/education") setActiveItem(data[2].label);
-    // if (pathname === "/projects") setActiveItem(data[3].label);
+    if (pathname === "/projects") setActiveItem(data[3].label);
   }, [data, pathname]);
 
   return (
@@ -60,12 +60,12 @@ const Navbar = () => {
           name={data[2].label}
           route="/education"
         /> */}
-        {/*<NavItem
+        <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
           name={data[3].label}
           route="/projects"
-        />*/}
+        />
         <span className="mx-2 text-gray-500">{data[4].label}</span>
       </div>
     </div>

@@ -18,9 +18,6 @@ To get the project running locally, you should have Node installed. Then, follow
 ### Evolvable Features
 - Add a database
 
-### Challenge Faced
-It was my first time making a whole Next.JS application from scratch.
-
 # Credits
 - **Name:** Lucie Ye
 - **Email:** lye10@hawk.iit.edu
